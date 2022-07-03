@@ -1,0 +1,83 @@
+.Bsc{
+    .apply a{
+        color: #F3BC00;
+    }
+    .apply::before{
+     background: url('~@/assets/introduce/bsc_icon.svg') no-repeat;
+     background-size: cover;
+    }
+    .banner{
+       background: url('~@/assets/introduce/bsc_joinbanner.png') no-repeat ;
+       background-size: cover;
+    }
+    .banner_en{
+      background: url('~@/assets/introduce/joinbanner_en.png') no-repeat ;
+      background-size: cover;
+    }
+ }
+ .Heco {
+    .apply a{
+        color: #03ad90;
+    }
+   .apply::before{
+     background: url('~@/assets/introduce/heco_icon.svg') no-repeat;
+      background-size: cover;
+    }
+     .banner{
+       background: url('~@/assets/introduce/heco_joinbanner.png') no-repeat ;
+       background-size: cover;
+    }
+     .banner_en{
+      background: url('~@/assets/introduce/heco_banner_en.png') no-repeat ;
+      background-size: cover;
+    }
+ }
+ .main {
+   background: #f6f7fb;
+   padding-bottom: 60px;
+ }
+ .introduce {
+   width: 860px;
+   margin: 0 auto;
+   transform: translateY(-126px);
+ }
+ .banner,
+ .banner_en {
+   height: 219px;
+   border-radius: 20px;
+ }
+ 
+ .list {
+   position: relative;
+   background: #ffffff;
+   border-radius: 20px;
+   padding: 30px;
+   margin-top: 15px;
+ }
+ h1 {
+   font-size: 20px;
+   color: #000000;
+   white-space:nowrap;
+ }
+ p {
+   line-height: 20px;
+   font-size: 14px;
+   color: #3d3d3d;
+   margin-top: 12px;
+ }
+ .apply {
+   &::before{
+       content: "";
+       position: absolute;
+       top: 0;
+       right: -16px;
+       width: 10px;
+       height: 10px;
+   }
+ }
+ 
+ .tur, .en, .jp, .kr, .es, .ru, .th, .nl, .vi, .pt, .tl {
+   p {
+     margin-top: 20px !important;
+   }
+ }

@@ -1,0 +1,132 @@
+.argment {
+  display: flex;
+  align-items: center;
+}
+
+.popWrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,.4);
+  z-index: 999;
+  display: flex;
+  align-items: center;
+  .pop {
+    margin: 0 auto;
+    width: 317px;
+    background-color: #fff;
+    border-radius: 24px;
+    z-index: 999;
+    padding: 25px;
+  }
+  .title-bar {
+    position: relative;
+    text-align: center;
+    margin-bottom: 15px;
+    span {
+      font-size: 18px;
+      color: #000;
+    }
+    img {
+      position: absolute;
+      cursor: pointer;
+      right: 0px;
+      top: 4px;
+      width: 14px;
+      height: 14px;
+    }
+  }
+  .voucher-topic {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: rgba(60, 60, 67, 0.6);
+    padding-top: 10px;
+    img {
+      position: relative;
+      top: -2px;
+      width: 13px;
+      height: 13px;
+      margin-right: 3px;
+    }
+  }
+  .check-rule {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    color: #000;
+    cursor: pointer;
+    padding-top: 20px;
+    img {
+      width: 15px;
+      height: 15px;
+      margin-right: 10px;
+    }
+  }
+
+  .pledge-btn {
+    width: 100%;
+    padding: 16px 0;
+    background-color: #BABCC3;
+    box-shadow: 0px 10px 10px 0px rgba(153, 153, 153, 0.2);
+    border-radius: 31px;
+    margin-top: 20px;
+    color: #fff;
+  }
+}
+.en {
+  .voucher-topic {
+    margin-top: 10px;
+  }
+  .pledge-btn {
+    margin-top: 10px;
+  }
+}
+
+.Heco {
+  .confirm-btn {
+    background: #009A7F;
+    box-shadow: 0px 10px 20px 0px rgba(0, 181, 107, 0.2);
+  }
+}
+
+.Bsc {
+  .confirm-btn {
+    color: #FFC900;
+    background: #080808;
+    box-shadow: 0px 10px 20px 0px rgba(45, 45, 45, 0.2);
+  }
+}
+
+
+@media screen and (min-width: 450px) {
+  .popWrap {
+    .pop {
+      width: 450px;
+      padding: 25px 36px 36px 36px;
+    }
+    .title-bar {
+      margin-bottom: 20px;
+    }
+    .pledge-btn {
+      padding: 21px 0;
+      margin-top: 30px;
+    }
+    .voucher-topic {
+      padding-top: 20px;
+    }
+    .check-rule {
+      padding-top: 25px;
+    }
+  }
+
+  .es {
+    .title-bar {
+      span {
+        font-size: 14px !important;
+      }
+    }
+  }
+}

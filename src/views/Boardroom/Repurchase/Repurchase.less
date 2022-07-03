@@ -1,0 +1,314 @@
+.Heco {
+  .repurchase__table-body-column {
+    a {
+      color: #2c72f4;
+    }
+  }
+  .repurchase__table-button {
+    background-color: #03AD90;
+    color: #fff;
+     &:active {
+      background-color: #2c72f4;
+      color: #fff;
+    }
+  }
+  .repurchase__table-body-icon {
+     background-image: url("~@/assets/repurchase-table-icon.png");
+  }
+}
+.Bsc {
+  .repurchase__table-body-column {
+    a {
+      color: #171717;
+    }
+  }
+   .repurchase__table-button {
+    background: #2E2E2E;
+    color: #FFCA13;
+     &:active {
+     background: #FFCA13;
+      color: #2E2E2E;
+    }
+  }
+   .repurchase__table-body-icon {
+     background-image: url("~@/assets/Bsc-repurchase-table-icon.png");
+  }
+}
+.ETH {
+}
+
+//pc
+@media screen and (min-width: 450px) {
+  .repo-record {
+    background: #f9fafc;
+    box-shadow: 0px 20px 30px 0px rgba(10, 20, 111, 0.05);
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .record-title {
+    height: 83px;
+    /* line-height: 83px; */
+    color: #48587b;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 47px;
+    padding-right: 20px;
+    border-bottom: 1px solid #8f9dd2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .rule__button-icon {
+      margin-left: 7px;
+      background-image: url("~@/assets/boardroom-more.png");
+      width: 6px;
+      height: 10px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    a {
+      font-size: 14px;
+      color: #a3b4d7;
+      cursor: pointer;
+      font-weight: 500;
+    }
+  }
+
+  .repurchase__table {
+    width: 100%;
+  }
+
+  .repurchase__table-head {
+    padding: 0 30px;
+    display: flex;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .repurchase__table-head-column {
+    text-align: left;
+    padding: 0 20px;
+    height: 56px;
+    color: #7f8faf;
+    font-size: 16px;
+    box-sizing: content-box;
+    line-height: 56px;
+  }
+
+  .repurchase__table-body {
+    padding: 0 30px;
+  }
+
+  .repurchase__table-body-row {
+    display: flex;
+  }
+
+  .repurchase__table-body-column {
+    text-align: left;
+    padding: 0 20px;
+    height: 67px;
+    color: #626e88;
+    font-size: 14px;
+    box-sizing: content-box;
+    line-height: 67px;
+    // a {
+    //   color: #2c72f4;
+    // }
+  }
+
+  .repurchase__table-body-icon {
+    display: inline-block;
+    width: 32px;
+    height: 18px;
+    background-size:cover;
+    // background-image: url("~@/assets/repurchase-table-icon.png") ;
+  }
+
+  .column-1 {
+    width: 210px;
+  }
+
+  .column-2 {
+    width: 80px;
+  }
+
+  .column-3 {
+    width: 140px;
+  }
+
+  .column-4,
+  .column-6 {
+    width: 120px;
+  }
+
+  .column-5 {
+    width: 40px;
+  }
+
+  .column-7 {
+    width: 70px
+  }
+
+  .column-8,
+  .column-9 {
+    width: 60px;
+  }
+
+  .empty {
+    padding: 100px 0;
+    text-align: center;
+
+    p {
+      margin-top: 6px;
+      font-size: 12px;
+      color: #9194a8;
+    }
+  }
+  .th {
+    .column-8 {
+      width: 70px;
+    }
+  }
+}
+
+// h5
+@media screen and (max-width: 450px) {
+  .repo-record {
+    background: #f9fafc;
+    box-shadow: 0 20px 30px 0px rgba(10, 20, 111, 0.05);
+    border-radius: 8px;
+    margin-top: 11px;
+  }
+
+  .record-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 44px;
+    line-height: 44px;
+    color: #48587b;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0 14px;
+    border-bottom: 1px solid #8f9dd2;
+    .rule__button-icon {
+      margin-left: 7px;
+      background-image: url("~@/assets/boardroom-more.png");
+      width: 6px;
+      height: 10px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    a {
+      font-size: 12px;
+      color: #a3b4d7;
+      font-weight: 500;
+    }
+  }
+
+  .repurchase__table {
+    width: 100%;
+  }
+
+  .repurchase__table-head {
+    display: flex;
+    border-bottom: 1px solid #e5e7eb;
+    padding: 0 6px;
+  }
+
+  .repurchase__table-head-column {
+    text-align: left;
+    padding: 0 4px;
+    height: 56px;
+    color: #7f8faf;
+    font-size: 10px;
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 0 0 auto;
+  }
+
+  .repurchase__table-head-row {
+    &.margin-top-4 {
+      margin-top: 4px;
+    }
+  }
+
+  .repurchase__table-body {
+    padding: 0 6px;
+  }
+
+  .repurchase__table-body-row {
+    display: flex;
+    border-bottom: 1px solid #dee0ed;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  .repurchase__table-body-column-warp {
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 4px;
+    text-align: left;
+    box-sizing: content-box;
+    flex: 0 0 auto;
+  }
+
+  .repurchase__table-body-column {
+    color: #626e88;
+    font-size: 12px;
+    // a {
+    //   color: #2c72f4;
+    // }
+  }
+
+  .repurchase__table-button {
+    width: 48px;
+    // background-color: #03AD90;
+    border-radius: 4px;
+    //color: #fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+   
+  }
+
+  .column-1 {
+    width: 70px;
+  }
+
+  .column-2 {
+    width: 50px;
+  }
+
+  .column-3 {
+    width: 50px;
+  }
+
+  .column-4 {
+    width: 70px;
+  }
+
+  .column-5 {
+    width: 47px;
+  }
+
+  .empty {
+    padding: 100px 0;
+    text-align: center;
+
+    p {
+      margin-top: 6px;
+      font-size: 12px;
+      color: #9194a8;
+    }
+  }
+}

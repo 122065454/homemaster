@@ -1,0 +1,67 @@
+.Bsc{
+    .apply::before{
+     background: url('~@/assets/introduce/h5_icon.svg') no-repeat;
+     background-size: cover;
+    }
+    .banner{
+       background: url('~@/assets/introduce/h5_joinbanner.png') no-repeat ;
+       background-size: cover;
+    }
+    .banner_en{
+       background: url('~@/assets/introduce/h5_bsc_en.png') no-repeat ;
+       background-size: cover;
+    }
+ }
+ .Heco {
+   .apply::before{
+     background: url('~@/assets/introduce/h5_heco_icon.svg') no-repeat;
+      background-size: cover;
+    }
+     .banner{
+       background: url('~@/assets/introduce/h5_heco_joinbanner.png') no-repeat ;
+       background-size: cover;
+    }
+     .banner_en{
+       background: url('~@/assets/introduce/h5_heco_en.png') no-repeat ;
+       background-size: cover;
+    }
+ 
+ }
+   .introduce {
+     width: 343px;
+     margin: 0 auto;
+     transform: translateY(-105px);
+   }
+   .banner,
+   .banner_en {
+     height: 125px;
+     width: 357px;
+     border-radius: 10px;
+   }
+   .list {
+     position: relative;
+     background: #ffffff;
+     border-radius: 10px;
+     padding: 15px 15px 35px 15px;
+   }
+  .apply{
+     position: absolute;
+     font-size: 16px;
+     right:27px;
+     bottom: 13px;
+     &::before{
+       content: "";
+       position: absolute;
+       right: -10px;
+       width: 9px;
+       height: 9px;
+     }
+   }
+   h1 {
+     font-size: 18px;
+   }
+   p {
+     font-size: 12px;
+     margin-top: 5px;
+     line-height: 17px;
+   }

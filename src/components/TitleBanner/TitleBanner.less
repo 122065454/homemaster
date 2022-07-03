@@ -1,0 +1,425 @@
+.ban-start {
+  display: flex;
+  justify-content: flex-start;
+}
+.ban-center {
+  display: flex;
+  justify-content: center;
+}
+
+.dig {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.Heco {
+  .heco-home {
+    padding-top: 15px;
+  }
+  background: linear-gradient(54deg, #13165b 0%, #060a35 100%);
+  .liquidity-mdx {
+    background: linear-gradient(270deg, #05d2bf 0%, #02c09f 100%);
+    color: #ffffff;
+  }
+  .new-list-white-banner {
+    background: #03ad90;
+    color: white;
+  }
+  .new-banner-btn-dra {
+    background: #02c09f;
+    color: white;
+  }
+  .act-title {
+    p:last-child {
+      background: #02c09f;
+    }
+  }
+}
+.Bsc,
+.Bsc-home {
+  // background: #191919;
+  .heco-home {
+    padding-top: 15px;
+  }
+  .liquidity-mdx {
+    background: #ffca13;
+    color: #000;
+  }
+  .new-list-white-banner {
+    background: #ffca13;
+    color: #000;
+  }
+  .new-banner-btn-dra {
+    background: #ffca13;
+    color: #000;
+  }
+  .act-title {
+    p:last-child {
+      background: #ffca13;
+    }
+  }
+}
+.ETH {
+}
+// pc
+@media screen and (min-width: 450px) {
+  .kr, .th, .nl, .it, .ina {
+    .list-white-one {
+      font-size: 15px !important;
+    }
+  }
+
+  .jp, .tur, .ru, .vi, .pt, .tl {
+    .list-white-one {
+      font-size: 14px !important;
+    }
+  }
+
+  .en, .es {
+    .list-white-one {
+      font-size: 17px !important;
+    }
+  }
+
+  .ru, .es, .th, .nl {
+    .new-banner-total-white {
+      padding: 0 1% !important;
+    }
+    .list-white:first-child {
+      .list-white-one:last-child {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  .pt, .es, .ina {
+    .home__banner-title {
+      font-size: 30px;
+    }
+  }
+
+  .tl {
+    .home__banner-title {
+      font-size: 28px;
+    }
+  }
+
+
+  .banner-con {
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  .banner-bar {
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+  }
+  .Heco .banner-bar {
+    background-image: url("~@/assets/Heco-banner-pc.png");
+  }
+  .Bsc .banner-bar {
+    background-image: url("~@/assets/Bsc-banner-pc.png");
+  }
+  .h5 {
+    display: none;
+  }
+
+  .title-banner {
+    height: 400px;
+    width: 100%;
+    z-index: 9999;
+    //
+  }
+  .home__banner-title {
+    font-weight: 500;
+    font-size: 36px;
+    color: #fff;
+    line-height: 56px;
+    padding-top: 134px;
+    text-align: center;
+    span {
+      color: #1afbc5;
+      display: block;
+    }
+  }
+
+  .home__banner-describe {
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 28px;
+    margin-top: 16px;
+    text-align: center;
+  }
+  .introduceDsc {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .liquidity-mdx {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-width: 208px;
+    height: 54px;
+    //background: linear-gradient(270deg, #05d2bf 0%, #02c09f 100%);
+    border-radius: 10px;
+    line-height: 54px;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 0 22px;
+    margin-top: 30px;
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+  ////
+  .new-banner-totals {
+    display: flex;
+    justify-content: center;
+    .new-banner-total-white {
+      width: 761px;
+      background-color: white;
+      height: 54px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 30px;
+      padding: 0 2%;
+      border-radius: 10px;
+    }
+
+    .list-white {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    .list-white-one {
+      font-size: 18px;
+      font-weight: 500;
+      color: #7c84b3;
+    }
+
+    .list-white-own {
+      font-size: 20px;
+      font-weight: bold;
+      color: #545f76;
+      margin: 0 5px;
+    }
+    .new-list-white-banner {
+      width: 419px;
+      height: 54px;
+      font-size: 22px;
+      border-radius: 10px;
+      text-align: center;
+      margin-left: 19px;
+      margin-top: 30px;
+    }
+  }
+}
+
+// h5 Heco
+@media screen and (max-width: 450px) {
+  .tur, .jp, .tl {
+    .trading-banner {
+      padding: 15px 10px !important;
+    }
+    .trading-ban-list {
+      div {
+        white-space: nowrap;
+        transform: scale(0.9);
+      }
+    }
+  }
+  .banner-con {
+    width: 100%;
+    height: 193px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .banner-bar {
+    height: 193px;
+    background-size: cover;
+    background-position: center;
+  }
+  .Heco .banner-bar {
+    background-image: url("~@/assets/Heco-banner-h5.png");
+  }
+  .Bsc .banner-bar {
+    background-image: url("~@/assets/Bsc-banner-h5.png");
+  }
+  .pc {
+    display: none;
+  }
+  .h5 {
+    width: 92%;
+    margin: 0 auto;
+  }
+  .title-banner {
+    height: 193px;
+  }
+  .introduce_banner {
+    font-size: 12px;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 27px;
+    margin: 0 20px;
+  }
+  .introduceDsc {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+  }
+  .home__banner-title {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    padding-top: 20px;
+    text-align: center;
+    span {
+      color: #1afbc5;
+      display: block;
+      margin-top: 4px;
+    }
+  }
+  .text-info {
+    line-height: 18px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #ffffff;
+    width: 311px;
+    margin: auto;
+  }
+
+  .home__banner-describe {
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    font-size: 10px;
+    text-align: center;
+  }
+  .li-h5title {
+    height: 55px;
+    color: white;
+
+    .act-title {
+      margin-right: 20px;
+      p:first-child {
+        font-size: 24px;
+        line-height: 45px;
+      }
+      p:last-child {
+        height: 3px;
+        width: 50px;
+        //  background: #02c09f;
+        margin: 0 auto;
+      }
+    }
+    .li-title {
+      line-height: 45px;
+    }
+  }
+  .act-mining {
+    margin-left: 20px;
+  }
+  .li-banner-total {
+    height: 77px;
+    width: 92%;
+    background: #fff;
+    display: block;
+    border-radius: 8px;
+    padding: 0 15px;
+    box-sizing: border-box;
+    .banner-tit {
+      font-size: 12px;
+      font-weight: 500;
+      color: #808eb5;
+      line-height: 17px;
+      padding-top: 15px;
+    }
+    .banner-sum {
+      font-size: 18px;
+      font-weight: 500;
+      color: #48587b;
+      line-height: 23px;
+      margin-top: 7;
+    }
+  }
+
+  .trading-banner {
+    min-height: 113px;
+    // width: 100%;
+    background: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    padding-bottom: 8px;
+    .trading-ban-list {
+      width: 100%;
+      div {
+        width: 50%;
+        p:first-child {
+          font-size: 12px;
+          font-weight: 500;
+          color: #808eb5;
+          line-height: 17px;
+        }
+        p:last-child {
+          font-size: 18px;
+          font-weight: 500;
+          color: #48587b;
+          .h5-sum {
+            font-size: 9px;
+            margin-left: 4px;
+          }
+        }
+      }
+    }
+  }
+  .new-banner-btn-dra {
+    min-width: 100px;
+    // max-width: 160px;
+    line-height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 12px;
+    margin-top: 10px;
+  }
+
+  .boardroom-banner__title {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 600;
+    padding-top: 12px;
+    margin-bottom: 20px;
+  }
+  // li-h5title
+  .tur {
+    .act-title p{
+      font-size: 18px !important;
+    }
+  }
+  .ru{
+    .act-title p {
+      font-size: 12px !important;
+    }
+    .li-title {
+      font-size: 12px !important;
+    }
+  }
+  .nl, .es {
+    .act-title p {
+      font-size: 16px !important;
+    }
+    .li-title {
+      font-size: 12px !important;
+    }
+  }
+}

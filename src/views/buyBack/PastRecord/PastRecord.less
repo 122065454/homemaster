@@ -1,0 +1,262 @@
+.Bsc{
+    .list-price .list-top .top{
+      .number{
+        color: #FF8400;
+         border-bottom: 2px solid #FF8400;
+      }
+      .secend{
+        color: #E5A800;
+         border-bottom: 2px solid #E5A800;
+      }
+    }
+  }
+ // pc
+ @media screen and (min-width: 450px) {
+   .two-price{
+     margin-left: 39px;
+   }
+   .en{
+      .two-price{
+     margin-left: 0px;
+   }
+   }
+   .caojuxin{
+     display: flex;
+     align-items: flex-end;
+     span{
+     font-size: 16px;
+     color: rgba(60, 60, 67, 0.6);  
+     line-height: 22px;
+     font-weight: 500;
+    
+     }
+     span:last-child{
+         color: #000000;
+         font-size: 20px;
+         margin-left: 10px;
+     }
+   }
+     i {
+     display: inline-block;
+     // position: absolute;
+     // // top:10px;
+     // left: 106px;
+     background: url("~@/views/buyBack/img/qustion.svg");
+     width: 14px;
+     height: 14px;
+     margin-bottom: 3px;
+   }
+   .content {
+     position: relative;
+     width: 1200px;
+     margin: 0 auto;
+     transform: translateY(-106px);
+   }
+   .two-price{
+     //  
+   }
+   .icon {
+     display: flex;
+     margin-bottom: 20px;
+     img {
+       width: 36px;
+       height: 36px;
+       margin-right: 20px;
+     }
+   }
+   .list-price {
+     width: 1200px;
+     // height: 452px;
+     background: #FFFFFF;
+     border-radius: 24px;
+     // margin-top: 20px;
+   }
+   .list-top{
+     width: 100%;
+     padding: 56px 80px 0px;
+     display: flex;
+     justify-content: space-around;
+   }
+   .line{
+    width: 1101px;
+    height: 1px;
+    border: .5px solid #F0F2F5;
+    margin: auto;
+    margin-top: 28px;
+   }
+   .top{
+     display: flex;
+     align-items: center;
+     span{
+      font-size: 16px;
+      color: #000000;
+     }
+     b{
+       font-weight: normal;
+     }
+   }
+   .bottom{
+     margin-top: 33px;
+     display: flex;
+     align-items: center;
+     .left{
+     font-size: 16px;
+     color: rgba(60, 60, 67, 0.6);  
+     
+     line-height: 22px;
+     margin-right: 10px;
+     }
+     .nums{
+       font-size: 20px;
+       font-weight: 500;
+       color: #000000;
+      
+    
+     } 
+   }
+       .secend,
+       .number {
+         font-size: 26px;
+         
+       
+       }
+    .number{
+         font-size: 26px;
+         margin-left: 19px;
+        
+         color: #009A7F; 
+         border-bottom: 2px solid #009A7F;
+   }
+    .secend {
+          margin-left: 19px;
+          color: #3a8cef;
+          border-bottom: 2px solid #3a8cef;
+       }
+   
+ 
+ }
+ // h5
+ @media screen and (max-width: 450px) {
+   .no_data {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     width: 100%;
+     height: 100%;
+     img {
+       width: 80px;
+       height: 80px;
+     }
+   }
+   .content {
+     position: relative;
+     width: 343px;
+     margin: 0 auto;
+     transform: translateY(-85px);
+   }
+   .icon {
+     display: flex;
+     img {
+       width: 36px;
+       height: 36px;
+       margin-right: 20px;
+     }
+   }
+   .left {
+     width: 343px;
+ 
+     background: #ffffff;
+     border-radius: 24px;
+     margin-top: 20px;
+     padding: 16px 8px;
+     margin-bottom: 36px;
+     .priceNumber {
+       margin: -9px 0 0 -6px;
+     }
+     .header {
+       width: 100%;
+       height: 47px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       font-size: 12px;
+       color: rgba(60, 60, 67, 0.6);
+       padding-left: 29px;
+       margin-bottom: 17px;
+       border-bottom: 1px solid rgba(60, 60, 67, 0.1);
+     }
+     .frist-price {
+       position: relative;
+       display: flex;
+       align-items: center;
+       margin-bottom: 32px;
+       img {
+         width: 20px;
+         height: 20px;
+         margin-right: 5px;
+       }
+       .img-right {
+         font-size: 14px;
+         // width: 476px;
+         display: flex;
+         align-items: center;
+         // justify-content: space-between;
+         span {
+           display: inline-block;
+         }
+         .mdx {
+           width: 72px;
+           // word-wrap: break-word;
+         }
+         .mdx2{
+           width: 65px;
+           // word-wrap: break-word;
+         }
+         .price-detail,.price-detail2 {
+           width: 74px;
+         }
+         .price-nums,.price-nums2 {
+           width: 73px;
+         }
+         .putall, .putall2{
+           width: 74px;
+         }
+         i {
+           position: absolute;
+           right: -9px;
+           background: url("~@/views/buyBack/img/qustion.svg");
+           width: 14px;
+           height: 14px;
+         }
+       }
+     }
+     .card-bottom {
+       display: flex;
+       justify-content: space-between;
+       span {
+         font-size: 14px;
+         color: rgba(60, 60, 67, 0.6);
+         margin-bottom: 10px;
+       }
+       span:last-child {
+         font-weight: 500;
+         color: #000000;
+       }
+         i {
+           display: inline-block;
+           vertical-align: bottom;
+           background: url("~@/views/buyBack/img/qustion.svg");
+           width: 14px;
+           height: 14px;
+         }
+     }
+     .en{
+     i{
+        left: 136px !important;
+     }
+   }
+   }
+   .right{
+     // margin-top: 10px;
+   }
+ }

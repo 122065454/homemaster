@@ -1,0 +1,366 @@
+
+.Heco {
+  .boardroom-tab__item {
+    background-color: #f0f2f5;
+    color: #7f8faf;
+    &.is-active {
+      background-color: #03AD90;
+      color: #fff;
+    }
+  }
+  .total__key-icon {
+    background-image: url("~@/assets/jump_arrow.png");
+  }
+  .total__value {
+    color: #626e88;
+  }
+  .combustion-btn {
+    background: rgba(111, 212, 255, 0.2);
+    color: #1457EC;
+  }
+}
+.Bsc {
+  .boardroom-tab__item {
+    background-color: #f0f2f5;
+    color: #7f8faf;
+    &.is-active {
+      background: #F3BC00;
+      color: #2e2e2e;
+    }
+  }
+  .total__key-icon {
+    background-image: url("~@/assets/Bsc-jump_arrow.png");
+  }
+  .total__value {
+    color: #2e2e2e;
+  }
+  .combustion-btn {
+    background: #FFF4BF;
+    color: #D79E00;
+  }
+}
+//pc
+@media screen and (min-width: 450px) {
+  .boardroom {
+    background-color: #f6f7fb;
+    padding-bottom: 70px;
+    min-height: calc(100vh - 75px - 120px);
+    .boardroom__banner {
+      height: 400px;
+      // background-image: url("~@/assets/menu_banner.png");
+      background: linear-gradient(54deg, #13165b 0%, #060a35 100%);
+      padding-top: 130px;
+      background-size: 100%;
+      text-align: center;
+    }
+    .margin-total {
+      div{
+        display: flex;
+        justify-content: flex-end;
+          text-align: right;
+      }
+      .total__key{
+        text-align: right;
+      }
+    }
+   .boardroom__total-warp .boardroom-total__item-flex {
+      width: 330px;
+    }
+    .boardroom-banner__title {
+      font-size: 36px;
+      color: #fff;
+      font-weight: 600;
+    }
+    .boardroom-banner__describe {
+      line-height: 56px;
+      margin-top: 6px;
+      font-size: 20px;
+      color: #fff;
+    }
+    .boardroom__total {
+      margin-top: -120px;
+      .container {
+        background: #ffffff;
+        box-shadow: 0 10px 20px 0 rgba(10, 20, 111, 0.03);
+        border-radius: 8px;
+        overflow: hidden;
+        height: 170px;
+        position: relative;
+      }
+    }
+    .boardroom__tab {
+      height: 56px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .boardroom-tab__item {
+      flex: 1;
+      // background-color: #f0f2f5;
+      // color: #7f8faf;
+      font-size: 24px;
+      text-align: center;
+      line-height: 56px;
+      cursor: pointer;
+      // &.is-active {
+      //   background-color: #03AD90;
+      //   color: #fff;
+      // }
+    }
+    .boardroom__total-warp {
+      padding: 20px 20px;
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+    }
+    .boardroom-total__item {
+      width: 275px;
+    }
+    .total__key {
+      font-size: 16px;
+      color: #808eb5;
+      font-weight: 500;
+      span {
+        vertical-align: middle;
+      }
+      .tist {
+        height: 14px;
+        width: 14px;
+      }
+    }
+    .total__key-icon {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin-left: 6px;
+     // background-image: url("~@/assets/jump_arrow.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .total__value {
+      margin-top: 5px;
+      font-size: 24px;
+      //color: #626e88;
+      font-weight: 500;
+    }
+    .boardroom-total__rule-button {
+      position: absolute;
+      bottom: 16px;
+      right: 20px;
+      font-size: 14px;
+      color: #a3b4d7;
+      cursor: pointer;
+    }
+    .rule__button-icon {
+      margin-left: 7px;
+      background-image: url("~@/assets/boardroom-more.png");
+      width: 6px;
+      height: 10px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+
+    .combustion-param {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .combustion-list {
+      display: flex;
+    }
+    .combustion-btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      border-radius: 21px;
+      padding: 9px 14px;
+      cursor: pointer;
+      & img {
+        width: 20px;
+        height: 20px;
+        margin-left: 10px;
+      }
+    }
+  }
+  .tur {
+    .total__key {
+      font-size: 15px !important;
+    }
+  }
+  .ru {
+    .boardroom-total__item {
+      width: auto;
+    }
+    .combustion-item {
+      width: 275px;
+    }
+    .boardroom-total__rule-button {
+      bottom: 10px;
+    }
+  }
+  .th {
+    .total__key {
+      font-size: 12px !important;
+    }
+  }
+}
+
+// 移动
+@media screen and (max-width: 450px) {
+  .boardroom__container .container {
+    background: #ffffff;
+  }
+  .tist {
+    height: 12px;
+    width: 12px;
+  }
+  .boardroom {
+    background-color: #f6f7fb;
+    padding-bottom: 70px;
+    min-height: calc(100vh - 130px);
+    .boardroom__banner {
+      height: 193px;
+      background: linear-gradient(54deg, #13165b 0%, #060a35 100%);
+    }
+    .boardroom-banner__title {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 600;
+      padding-top: 8px;
+    }
+    .boardroom__total {
+      margin-top: -135px;
+      .container {
+        background: #ffffff;
+        box-shadow: 0 10px 20px 0 rgba(10, 20, 111, 0.03);
+        border-radius: 8px;
+        overflow: hidden;
+        position: relative;
+        padding-bottom: 10px;
+      }
+    }
+    .boardroom__tab {
+      height: 30px;
+      display: flex;
+      justify-content: space-between;
+    }
+    .boardroom-tab__item {
+      flex: 1;
+      // background-color: #f0f2f5;
+      // color: #7f8faf;
+      font-size: 14px;
+      text-align: center;
+      line-height: 30px;
+      cursor: pointer;
+      // &.is-active {
+      //   background-color: #03AD90;
+      //   color: #fff;
+      // }
+    }
+    .boardroom__total-warp {
+      padding: 14px 14px 0;
+      position: relative;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+    }
+    .boardroom-total__item {
+      width: 50%;
+      margin-bottom: 10px;
+      &.margin-top-15 {
+        margin-top: 15px;
+      }
+    }
+    .total__key {
+      font-size: 12px;
+      color: #808eb5;
+      font-weight: 500;
+      span {
+        vertical-align: middle;
+      }
+    }
+    .total__key-icon {
+      display: inline-block;
+      width: 16px;
+      height: 16px;
+      margin-left: 6px;
+      // background-image: url("~@/assets/jump_arrow.png");
+      background-repeat: no-repeat;
+      background-size: 100%;
+    }
+    .total__value {
+      margin-top: 5px;
+      font-size: 14px;
+      //color: #626e88;
+      font-weight: 500;
+    }
+    .boardroom-total__rule-button {
+      position: absolute;
+      bottom: 8px;
+      right: 16px;
+      font-size: 12px;
+      color: #a3b4d7;
+      cursor: pointer;
+    }
+    .rule__button-icon {
+      margin-left: 7px;
+      background-image: url("~@/assets/boardroom-more.png");
+      width: 6px;
+      height: 10px;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: inline-block;
+    }
+    .combustion-param {
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .combustion-item {
+      width: auto;
+    }
+    .combustion-btn {
+      position: relative;
+      right: -14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 15px;
+      border-radius: 24px 0px 0px 24px;
+      padding: 9px 14px;
+      cursor: pointer;
+      & img {
+        width: 15px;
+        height: 15px;
+        margin-left: 5px;
+      }
+    }
+  }
+  .tur, .en, .ru, .es, .nl, .th, .vi, .pt, .tl, .it, .ina {
+    .boardroom-tab__item {
+      font-size: 12px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+  }
+  .en, .tur, .kr, .jp, .es, .nl, .th, .ru, .vi, .pt, .tl {
+    .combustion-btn {
+      position: absolute;
+      transform: scale(0.9);
+      border-radius: 24px;
+      right: 0;
+      top: 12px;
+      font-size: 12px;
+    }
+  }
+  .ru {
+    .combustion-btn {
+      border-radius: 24px 0px 0px 24px;
+      top: 30px;
+      right: -10px;
+    }
+  }
+}

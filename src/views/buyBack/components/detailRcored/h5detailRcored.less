@@ -1,0 +1,135 @@
+// h5
+@media screen and (max-width: 450px) {
+    // 详细记录
+    /deep/ .el-table th,
+    .el-table tr {
+      background-color: #f7f9fc;
+    }
+    /deep/ .el-form-item {
+      margin-bottom: 0px !important;
+    }
+    /deep/ .el-table__expanded-cell {
+      padding: 4px 54px !important;
+    }
+    /deep/ .el-table tr {
+      background-color: #f7f9fc !important;
+    }
+    /deep/ .el-form-item__label {
+      text-align: left;
+    }
+    /deep/.el-table .cell {
+      word-break: normal;
+    }
+    .header-1 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      // width: 133px;
+    }
+    .header-2,
+    .header-3 {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    img {
+      width: 22px;
+      height: 22px;
+    }
+    .li-title {
+      display: flex;
+      // padding: 0 16px;
+      font-size: 12px;
+      justify-content: space-between;
+      margin-bottom: 6px;
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+    .detail {
+      width: 359px;
+      // height: 721px;
+      // background-color: #fff;
+      margin: -37px 0 0 16px;
+      a {
+        color: #006ced;
+      }
+      .detail-content {
+        width: 100%;
+        margin: 0 auto;
+        overflow-x: hidden;
+        overflow: scroll;
+      }
+      .li-title {
+        display: flex;
+        // padding: 0 16px;
+        font-size: 12px;
+        justify-content: space-between;
+        margin-bottom: 6px;
+        img {
+          width: 22px;
+          height: 22px;
+        }
+      }
+      .p {
+        font-size: 20px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 15px;
+        font-weight: bold;
+      }
+      nav {
+        ul {
+          display: flex;
+          overflow: scroll;
+        }1
+        ul::-webkit-scrollbar {
+          display: none;
+        }
+        li {
+          font-size: 20px;
+          color: rgba(60, 60, 67, 0.6);
+          margin-right: 16px;
+          white-space: nowrap;
+        }
+        .liclick {
+          color: #000000;
+        }
+        margin-bottom: 10px;
+      }
+  
+      .detail-data {
+        height: 300px;
+        overflow: scroll;
+        padding-right: 16px;
+      }
+      .header {
+        height: 67px;
+        display: flex;
+        align-items: center;
+        // justify-content: space-between;
+        border-bottom: 1px solid #f0f2f5;
+        padding-right: 16px;
+        & div {
+          display: flex;
+          flex-direction: column;
+          span {
+            font-size: 12px;
+            color: rgba(60, 60, 67, 0.6);
+          }
+        }
+  
+        // 统一向右边偏移
+        //   .distance {
+        //     margin-right: 71px;
+        //   }
+      }
+      i {
+        display: inline-block;
+        background: url("~@/views/buyBack/img/icon.svg");
+        width: 12px;
+        height: 10px;
+      }
+    }
+  }
